@@ -1,0 +1,33 @@
+[
+    {
+        "name": "catsplugins/cp-core",
+        "version": "dev-dev",
+        "version_normalized": "dev-dev",
+        "source": {
+            "type": "git",
+            "url": "https://gitlab.com/catsplugins/cp-core.git",
+            "reference": "c7ccf629e79aaf4dfb394c5f01bb3e957d9c694e"
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2019-02-12T15:47:05+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/cp-core.php"
+            ],
+            "psr-0": {
+                "CastPlugin\\CpCore": "src"
+            }
+        },
+        "authors": [
+            {
+                "name": "Research WP",
+                "email": "researchwordpress@gmail.com"
+            }
+        ],
+        "description": "Cats Plugin core"
+    }
+]

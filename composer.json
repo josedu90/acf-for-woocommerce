@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": ">=7.1",
+        "catsplugins/cp-core": "@dev"
+    },
+    "repositories": [{
+        "type": "git",
+        "url":  "https://gitlab.com/catsplugins/cp-core.git"
+    }],
+    "config": {
+        "optimize-autoloader": true
+    }
+}

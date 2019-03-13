@@ -1,0 +1,33 @@
+{
+  "page_title" : "Advanced Custom Fields for WooCommerce",
+  "menu_title" :"ACF for Woo",
+  "capability" :"manage_options",
+  "menu_slug" :"acf-woo-dashboard",
+  "icon_url" :"",
+  "prefix_options": "acfwoo_",
+  "tabs": {
+    "Wellcome": {
+        "settings":{
+          "type": "content",
+          "content_html": "",
+          "content_remote": "https://catsplugins.com/data/dashboard-acf-woo.html?v=1",
+          "content_callback_function":""
+        }
+    },
+    "Tools": {
+      "settings": {
+        "submit_button": false
+      },
+      "fields": {
+        "page_import": {
+          "type": "button-link",
+          "label": "Import data",
+          "text_button": "Run import",
+          "type_button": "success",
+          "link_filter": "acfwoo-merlin",
+          "desc": "Import data sample, Awesome content."
+        }
+      }
+    }
+  }
+}

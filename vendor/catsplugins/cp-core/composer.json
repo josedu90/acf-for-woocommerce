@@ -1,0 +1,22 @@
+{
+    "name": "catsplugins/cp-core",
+    "description": "Cats Plugin core",
+    "authors": [
+        {
+            "name": "Research WP",
+            "email": "researchwordpress@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": [
+            "src/cp-core.php"
+        ],
+        "psr-0": {
+            "CastPlugin\\CpCore": "src"
+        }
+    }
+}

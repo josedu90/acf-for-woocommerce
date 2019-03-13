@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dda3b04f862a821a792feebf37252532",
+    "packages": [
+        {
+            "name": "catsplugins/cp-core",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/catsplugins/cp-core.git",
+                "reference": "c7ccf629e79aaf4dfb394c5f01bb3e957d9c694e"
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/cp-core.php"
+                ],
+                "psr-0": {
+                    "CastPlugin\\CpCore": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Research WP",
+                    "email": "researchwordpress@gmail.com"
+                }
+            ],
+            "description": "Cats Plugin core",
+            "time": "2019-02-12 15:47:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "catsplugins/cp-core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1"
+    },
+    "platform-dev": []
+}
